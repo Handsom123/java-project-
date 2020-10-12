@@ -17,7 +17,7 @@
     4.用getAmount()返回amount的值。
     5.用getPrice()返回price的值。
     6.用getTrademark()返回trademark的值。
-    7.用构造函数HardDisk(String name)方法降参数name的值穿给HardDisk中共有变量name。
+    7.用构造函数HardDisk(String name)方法降参数name的值穿给HardDisk中公有变量name。
   ### PC类:
     1.用SetCPU(CPU cpu)将参数cpu赋值给cpu。
     2.用SetHardDisk(HardDisk HD)将参数HD赋值给HardDisk。
@@ -25,6 +25,9 @@
   ### Test类:
     1.main方法中创建一个CPU对象cpu,cpu将自己的speed设置为2200；将memoery设置为8；将model设置为a01。
     2.main方法中创建一个HardDisk对象HD，HD将自己的amount设计为200;将price设置为580;将trademark设置为hp。
+    3.调用CPU和HardDisk的构造函数。
+ ## 核心代码:
+  
     
   
   
