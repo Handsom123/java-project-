@@ -1,6 +1,7 @@
 # JAVA_TEXT2
 ## 实验内容:
   用类描述计算机中CPU的速度和硬盘的容量。要求Java应用程序有4个类，名字分别是PC、CPU、HardDisk和Test,其中Test是主类。
+  
 ## 实验方法:
   ### CPU类:
     1.用setSpeed(int speed)方法将参数speed的值传给CPU中私有成员变量speed。
@@ -26,7 +27,15 @@
     1.main方法中创建一个CPU对象cpu,cpu将自己的speed设置为2200；将memoery设置为8；将model设置为a01。
     2.main方法中创建一个HardDisk对象HD，HD将自己的amount设计为200;将price设置为580;将trademark设置为hp。
     3.调用CPU和HardDisk的构造函数。
- ## 核心代码:
+    
+## 核心代码
+    ![CPU核心代码](D:\java\实验截图\cpu.png)
+    ![HardDisk核心代码](D:\java\实验截图\HardDisk.png)
+    ![PC核心代码](D:\java\实验截图\PC.png)
+    ![CTest核心代码](D:\java\实验截图\Test.png)
+  
+  
+  
   
     
   
