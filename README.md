@@ -29,11 +29,17 @@
     3.调用CPU和HardDisk的构造函数。
     
 ## 核心代码
-    ![CPU核心代码](D:\java\实验截图\cpu.png)
-    ![HardDisk核心代码](D:\java\实验截图\HardDisk.png)
-    ![PC核心代码](D:\java\实验截图\PC.png)
-    ![CTest核心代码](D:\java\实验截图\Test.png)
-  
+   ### cpu核心代码:
+    ![CPU核心代码](/cpu.png)
+   
+   ### HardDisk核心代码:
+    ![HardDisk核心代码](/HardDisk.png)
+   
+   ### PC核心代码
+    ![PC核心代码](/PC.png)
+   
+   ### Test核心代码
+    ![Test核心代码](/Test.png)
   
   
   
