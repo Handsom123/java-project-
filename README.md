@@ -39,7 +39,7 @@
     ![image](https://raw.githubusercontent.com/Handsom123/java-project-/main/PC.png)
    
    ### Test核心代码
-    ![image](https://raw.githubusercontent.com/Handsom123/java-project-/main/cpu.png)
+    ![image](https://raw.githubusercontent.com/Handsom123/java-project-/main/Test.png)
 
 ## 实验结果
     ![image](https://raw.githubusercontent.com/Handsom123/java-project-/main/reslut.png)
