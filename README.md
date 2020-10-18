@@ -30,19 +30,19 @@
     
 ## 核心代码
    ### cpu核心代码:
-    ![image](https://raw.githubusercontent.com/Handsom123/java-project-/main/cpu.png)
+    ![cpu](https://raw.githubusercontent.com/Handsom123/java-project-/main/cpu.png) 
    
    ### HardDisk核心代码:
-    ![image](https://raw.githubusercontent.com/Handsom123/java-project-/main/HardDisk.png)
+    ![HardDisk](https://raw.githubusercontent.com/Handsom123/java-project-/main/HardDisk.png)
    
    ### PC核心代码
-    ![image](https://raw.githubusercontent.com/Handsom123/java-project-/main/PC.png)
+    ![PC](https://raw.githubusercontent.com/Handsom123/java-project-/main/PC.png)
    
    ### Test核心代码
-    ![image](https://raw.githubusercontent.com/Handsom123/java-project-/main/Test.png)
+    ![Test](https://raw.githubusercontent.com/Handsom123/java-project-/main/Test.png)
 
 ## 实验结果
-    ![image](https://raw.githubusercontent.com/Handsom123/java-project-/main/reslut.png)
+    ![result](https://raw.githubusercontent.com/Handsom123/java-project-/main/reslut.png)
     
 ## 实验感想 
     1.当用某个类在另外一个类中创建对象后，如果不希望该对象直接访问自己的变量，则通过"."运算符来操作自己的成员变量，就应当将该成员变量访问权限设置为private。
