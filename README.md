@@ -31,7 +31,8 @@
 ## 核心代码
 
    ### cpu核心代码:
-'''public class CPU {
+'''
+public class CPU {
 	   private int speed;
 	   private int memory;
 	   private String model;
@@ -71,7 +72,8 @@
 		      this.model = model;
 
 		   }
-	}'''
+	}
+'''
 
    
    ### HardDisk核心代码:
