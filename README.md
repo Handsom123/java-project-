@@ -31,115 +31,16 @@
 ## 核心代码
 
    ### cpu核心代码:
-'''
-	   public int getSpeed() {
-	      return speed;
 
-	   }
-	   
-	   public int getMemory() {
-		      return memory;
-
-		   }
-	   
-	   public String getModel() {
-		      return model;
-
-		   }
-	   
-	   public void setSpeed(int speed) {
-		   	  this.speed = speed;
-
-	   }
-	   
-	   public void setMemory(int memory) {
-		      this.memory = memory;
-
-		   }
-	   
-	   public void setModel(String model) {
-		      this.model = model;
-
-		   }
-'''
    
    ### HardDisk核心代码:
-'''	   
-	   public int getAmount() {
-	      return amount;
 
-	   }
-	   
-	   public int getPrice() {
-		      return price;
-
-		   }
-	   
-	   public String getTrademark() {
-		      return trademark;
-
-		   }
-	   
-	   public void setAmount(int amount) {
-	      this.amount = amount;
-
-	   }
-	   
-	   public void setPrice(int price) {
-		      this.price = price;
-
-		   }
-	   
-	   public void setTrademark(String trademark) {
-		      this.trademark = trademark;
-
-		   }	   
-
-'''
   
    ### PC核心代码
-'''
 
-    void setCPU(CPU cpu) {
-        this.cpu = cpu;
-
-    }
-
-    void setHardDisk(HardDisk HD) {
-        this.HD = HD;
-
-    }
-
-    void show(){
-       System.out.println("CPU速度:"+cpu.getSpeed());
-       System.out.println("CPU内存:"+cpu.getMemory());
-       System.out.println("CPU型号:"+cpu.getModel());       
-       System.out.println("硬盘容量:"+HD.getAmount());
-       System.out.println("硬盘价格:"+HD.getPrice());
-       System.out.println("硬盘牌子:"+HD.getTrademark());
-
-    }  
-    
-'''
     
    ### Test核心代码
-'''
-	       CPU cpu = new CPU("abc");
-	       HardDisk HD=new HardDisk("dce");
-	       
-	       cpu.setSpeed(2200);
-	       cpu.setMemory(8);
-	       cpu.setModel("a01");       
-	       
-	       HD.setAmount(200);
-	       HD.setPrice(580);
-	       HD.setTrademark("hp");
-	       
-	       PC pc =new PC();
-	       pc.setCPU(cpu);
-	       pc.setHardDisk(HD);
-	       pc.show();
-'''
+
    
 ## 实验结果
 ![result](https://raw.githubusercontent.com/Handsom123/java-project-/main/reslut.png)
