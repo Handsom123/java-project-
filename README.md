@@ -32,6 +32,9 @@
 
    ### cpu核心代码:
 '''
+
+
+
 	   public int getSpeed() {
 	      return speed;
 
@@ -66,6 +69,9 @@
    
    ### HardDisk核心代码:
 '''
+
+
+
 	   HardDisk(String name){
 		   this.name = name;
 	   }
@@ -104,6 +110,9 @@
   
    ### PC核心代码
 '''
+
+
+
     void setCPU(CPU cpu) {
         this.cpu = cpu;
 
@@ -128,6 +137,9 @@
     
    ### Test核心代码
 '''
+
+
+
 	   public static void main(String args[]) {
 	       CPU cpu = new CPU("abc");
 	       HardDisk HD=new HardDisk("dce");
