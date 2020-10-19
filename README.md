@@ -32,7 +32,6 @@
 
    ### cpu核心代码:
 '''
-
 	   public int getSpeed() {
 	      return speed;
 
@@ -61,19 +60,12 @@
 	   public void setModel(String model) {
 		      this.model = model;
 
-		   }
-	   
+		   }	   
 '''
 
    
    ### HardDisk核心代码:
 '''
-	   public class HardDisk {
-	   private int amount; 
-	   private int price;
-	   private String trademark;
-	   
-	   public String name;
 	   HardDisk(String name){
 		   this.name = name;
 	   }
@@ -107,19 +99,11 @@
 		      this.trademark = trademark;
 
 		   }
-
-	   }
 '''
 
   
    ### PC核心代码
 '''
-    public class PC {
-    CPU cpu;
-    HardDisk HD;   
-    char type;   
-    int sales;
-    
     void setCPU(CPU cpu) {
         this.cpu = cpu;
 
@@ -139,15 +123,11 @@
        System.out.println("硬盘牌子:"+HD.getTrademark());
 
     }
-
-    }
-
 '''
 
     
    ### Test核心代码
 '''
-	   public class Test {
 	   public static void main(String args[]) {
 	       CPU cpu = new CPU("abc");
 	       HardDisk HD=new HardDisk("dce");
@@ -164,10 +144,8 @@
 	       pc.setCPU(cpu);
 	       pc.setHardDisk(HD);
 	       pc.show();
-
 	    }
 
-	    }
 '''
 
    
