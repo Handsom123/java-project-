@@ -32,11 +32,6 @@
 
    ### cpu核心代码:
 '''
-CPU(String name){
-		   this.name = name;
-		   
-	   }
-
 	   public int getSpeed() {
 	      return speed;
 
@@ -69,12 +64,7 @@ CPU(String name){
 '''
    
    ### HardDisk核心代码:
-'''
-
-HardDisk(String name){
-		   this.name = name;
-	   }
-	   
+'''	   
 	   public int getAmount() {
 	      return amount;
 
@@ -110,7 +100,7 @@ HardDisk(String name){
    ### PC核心代码
 '''
 
-void setCPU(CPU cpu) {
+    void setCPU(CPU cpu) {
         this.cpu = cpu;
 
     }
@@ -134,8 +124,6 @@ void setCPU(CPU cpu) {
     
    ### Test核心代码
 '''
-
- public static void main(String args[]) {
 	       CPU cpu = new CPU("abc");
 	       HardDisk HD=new HardDisk("dce");
 	       
@@ -151,8 +139,6 @@ void setCPU(CPU cpu) {
 	       pc.setCPU(cpu);
 	       pc.setHardDisk(HD);
 	       pc.show();
-
-	    }   
 '''
    
 ## 实验结果
