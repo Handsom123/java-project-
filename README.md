@@ -32,6 +32,7 @@
 
    ### cpu核心代码:
 '''
+
 CPU(String name){
 		   this.name = name;
 		   
@@ -70,6 +71,7 @@ CPU(String name){
    
    ### HardDisk核心代码:
 '''
+
 HardDisk(String name){
 		   this.name = name;
 	   }
@@ -108,6 +110,7 @@ HardDisk(String name){
   
    ### PC核心代码
 '''
+
 void setCPU(CPU cpu) {
         this.cpu = cpu;
 
@@ -132,6 +135,7 @@ void setCPU(CPU cpu) {
     
    ### Test核心代码
 '''
+
  public static void main(String args[]) {
 	       CPU cpu = new CPU("abc");
 	       HardDisk HD=new HardDisk("dce");
