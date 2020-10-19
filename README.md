@@ -32,7 +32,7 @@
 
    ### cpu核心代码:
 '''
-public class CPU {
+	   public class CPU {
 	   private int speed;
 	   private int memory;
 	   private String model;
@@ -72,13 +72,13 @@ public class CPU {
 		      this.model = model;
 
 		   }
-	}
+	   }
 '''
 
    
    ### HardDisk核心代码:
 '''
-public class HardDisk {
+	   public class HardDisk {
 	   private int amount; 
 	   private int price;
 	   private String trademark;
@@ -118,13 +118,13 @@ public class HardDisk {
 
 		   }
 
-	}
+	   }
 '''
 
   
    ### PC核心代码
 '''
-public class PC {
+    public class PC {
     CPU cpu;
     HardDisk HD;   
     char type;   
@@ -150,14 +150,14 @@ public class PC {
 
     }
 
-}
+    }
 
 '''
 
     
    ### Test核心代码
 '''
-public class Test {
+	   public class Test {
 	   public static void main(String args[]) {
 	       CPU cpu = new CPU("abc");
 	       HardDisk HD=new HardDisk("dce");
@@ -177,7 +177,7 @@ public class Test {
 
 	    }
 
-	}
+	    }
 '''
 
    
