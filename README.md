@@ -78,19 +78,106 @@ public class CPU {
    
    ### HardDisk核心代码:
 '''
+public class HardDisk {
+	   private int amount; 
+	   private int price;
+	   private String trademark;
+	   
+	   public String name;
+	   HardDisk(String name){
+		   this.name = name;
+	   }
+	   
+	   public int getAmount() {
+	      return amount;
 
+	   }
+	   
+	   public int getPrice() {
+		      return price;
+
+		   }
+	   
+	   public String getTrademark() {
+		      return trademark;
+
+		   }
+	   
+	   public void setAmount(int amount) {
+	      this.amount = amount;
+
+	   }
+	   
+	   public void setPrice(int price) {
+		      this.price = price;
+
+		   }
+	   
+	   public void setTrademark(String trademark) {
+		      this.trademark = trademark;
+
+		   }
+
+	}
 '''
 
   
    ### PC核心代码
 '''
+public class PC {
+    CPU cpu;
+    HardDisk HD;   
+    char type;   
+    int sales;
+    
+    void setCPU(CPU cpu) {
+        this.cpu = cpu;
+
+    }
+
+    void setHardDisk(HardDisk HD) {
+        this.HD = HD;
+
+    }
+
+    void show(){
+       System.out.println("CPU速度:"+cpu.getSpeed());
+       System.out.println("CPU内存:"+cpu.getMemory());
+       System.out.println("CPU型号:"+cpu.getModel());       
+       System.out.println("硬盘容量:"+HD.getAmount());
+       System.out.println("硬盘价格:"+HD.getPrice());
+       System.out.println("硬盘牌子:"+HD.getTrademark());
+
+    }
+
+}
 
 '''
 
     
    ### Test核心代码
 '''
+public class Test {
+	   public static void main(String args[]) {
+	       CPU cpu = new CPU("abc");
+	       HardDisk HD=new HardDisk("dce");
+	       
+	       cpu.setSpeed(2200);
+	       cpu.setMemory(8);
+	       cpu.setModel("a01");       
+	       
+	       HD.setAmount(200);
+	       HD.setPrice(580);
+	       HD.setTrademark("hp");
+	       
+	       PC pc =new PC();
+	       pc.setCPU(cpu);
+	       pc.setHardDisk(HD);
+	       pc.show();
 
+	    }
+
+	}
 '''
 
    
