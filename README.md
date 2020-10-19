@@ -32,7 +32,6 @@
 
    ### cpu核心代码:
 '''
-
 CPU(String name){
 		   this.name = name;
 		   
