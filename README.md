@@ -33,10 +33,6 @@
    ### cpu核心代码:
 '''
 	public class CPU {
-		   private int speed;
-		   private int memory;
-		   private String model;
-
 		   public String name;
 		   CPU(String name){
 			   this.name = name;
