@@ -32,8 +32,6 @@
 
    ### cpu核心代码:
 '''
-	public class CPU {
-		   public String name;
 		   CPU(String name){
 			   this.name = name;
 
@@ -68,7 +66,6 @@
 			      this.model = model;
 
 			   }
-		}
 '''
 
    
